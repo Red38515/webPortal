@@ -1,0 +1,3 @@
+Student Name: James Woodcock
+Purpose:
+This directory will hold a copy of my Nintendo project.
