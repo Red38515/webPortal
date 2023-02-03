@@ -1,0 +1,16 @@
+
+
+/*CSS Body reset */
+body, header, nav, main, footer, h1, div, img {padding: 0; 
+											   margin: 0; 
+											   border: 0;}
+body {background-color: #ccccff; color: #C2880E;}
+
+header {text-align: center; padding: 0 5em}
+
+main {}
+#introduction {text-align: center;}
+#content p {float: left; max-width: 70%}
+#content img {float: right; max-width: 27%;}
+#closure p {float: left; max-width: 70%;}
+.bold {font-weight: bold;}

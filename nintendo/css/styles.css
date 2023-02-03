@@ -1,0 +1,142 @@
+
+/* 
+	Colors
+	Main Red - #e60012 
+	Joycon Red - #ff4554
+	Joycon Blue - #00c3e3
+	Joycon grey - #989898
+	Joycon button grey - #414548
+*/
+
+/* Nintendo Logo Font - font-family: 'Oswald', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+/* css body reset */
+body, h1, h2, blockquote, table, a:link, a:hover, a:active, a:visited {
+	padding: 0; 
+	margin: 0; 
+	border: 0;
+}
+
+
+
+header {
+	background-color: #e60012;
+}
+header h1, header h2 {
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+}
+header h1 {
+	padding-top: 2%;
+	font-size: 5em;
+}
+
+
+nav {
+	padding: 1%;
+	margin: 0 auto;
+}
+
+nav ul {
+	list-style-type: none; 
+	text-align: center;
+}
+
+nav li {
+	font-size: 1.5em; 
+	display: inline-block;
+	font-family: 'francois one', sans-serif;
+	padding: 0 2em;
+}
+
+ nav li a {
+	display: block; 
+	color: #fff;  
+	padding: 2em; 
+	text-decoration: none;
+}
+
+
+#hero img {
+	max-width: 100%;
+	max-height: 50%;
+	display: block;
+}
+
+main h1 {
+	padding: 1% 0 0 1.5%;
+}
+main h3 {
+	font-size: 2em;
+	padding: 0 1%;
+}
+main p {
+	font-size: 1.5em;
+	padding: 0 2%;
+}
+
+#history h1 {
+	padding-top: 1%;
+	padding-left: 2%;
+}
+
+#career {
+	padding: 1.5%;
+}
+#career dt {
+	font-size: 1.5em;
+}
+#career dd {
+	font-size: 1.25em;
+	font-style: italic;
+}
+#career dd:last-child {
+	border-bottom: 1px solid #989898;
+	padding-bottom: 1%;
+}
+
+#form {
+	margin: 0 auto;
+}
+fieldset, input, select, textarea {
+	margin-bottom: 2%;
+}
+fieldset legend {
+	font-weight: bold;
+	font-size: 1.25em;
+}
+label {
+	display: block;
+	padding-top: 3%;
+}
+form #submit {
+	margin: 0 auto;
+	border: none;
+	display: block;
+	padding: 2%;
+	background-color: #00c3e3;
+	font-size: 1em;
+	border-radius: 10px;
+}
+
+
+footer {
+	background-color: #e60012;
+	width: 100%;
+	bottom: 0;
+}
+footer p {
+	text-align: center;
+	color: #fff;
+}
+footer p:last-child {
+	padding-bottom: 3%;
+}
+footer p:first-child {
+	padding-top: 3%;
+}
+
+
+
