@@ -3,18 +3,32 @@
 	Color palette
 	Davys gray - #595758
 	Paolo veronese green - #419d78
-	Red pigment - e91111
+	Red pigment - #e91111
 	Antique white - #feefdd
 	Marigold - #eca400
 */
 
-header, nav, footer, section, ul, li, a, h2, h3, h4, p {
+body, header, nav, footer, section, ul, li, a, h2, h3, h4, p {
 	margin: 0;
 	padding: 0;
 	border: 0;
 }
 body {
-	background-color: #feefdd
+	background-color: #feefdd;
+}
+
+nav {
+	padding: 1%;
+	background-color: #595758;
+}
+nav ul {
+	list-style-type: none;
+	/* Move after adding scroll buttons to nav */
+	text-align: center;
+	color: #feefdd;
+}
+nav li {
+	display: inline-block;
 }
 
 #gen-proj {
@@ -64,9 +78,12 @@ body {
 
 footer {
 	background-color: #e91111;
+	padding: 2%;
+	padding-bottom: 3.5%;
 }
 footer p {
 	color: #feefdd;
+	text-align: center;
 }
 
 
