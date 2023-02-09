@@ -8,6 +8,12 @@
 	Marigold - #eca400
 */
 
+/* resume font family: font-family: 'Great Vibes', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+/* header font family: font-family: 'Playfair Display', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 body, header, nav, footer, section, ul, li, a, h2, h3, h4, p {
 	margin: 0;
 	padding: 0;
@@ -20,15 +26,48 @@ body {
 nav {
 	padding: 1%;
 	background-color: #595758;
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 nav ul {
 	list-style-type: none;
-	/* Move after adding scroll buttons to nav */
 	text-align: center;
-	color: #feefdd;
 }
 nav li {
 	display: inline-block;
+	padding: 0 1%;
+}
+nav a {
+	color: #feefdd;
+	text-decoration: none;
+}
+header {
+	background-color: #595758;
+	border-bottom: thick solid #e91111;
+
+}
+header img {
+	max-width: 30%;
+}
+header h1 {
+	float: right;
+	padding-right: 20%;
+	padding-top: 8.5%;
+	font-size: 3em;
+	color: #feefdd;
+	font-family: 'Playfair Display', serif;
+}
+
+#resume {
+	text-align: center;
+	padding: 2%;
+}
+#resume a {
+	text-decoration: none;
+	color: #e91111;
+	font-size: 1.5em;
+	font-family: 'Great Vibes', cursive;
 }
 
 #gen-proj {
@@ -63,6 +102,7 @@ nav li {
 	color: #e91111;
 }
 
+	/* The current about me is just a placeholder until I get the photo to use */
 #abt-me {
 	clear: left;
 	padding: 1.5%;
@@ -77,9 +117,12 @@ nav li {
 }
 
 footer {
-	background-color: #e91111;
+	background-color: #595758;
 	padding: 2%;
 	padding-bottom: 3.5%;
+	bottom: 0;
+	border-top: thick solid #e91111;
+
 }
 footer p {
 	color: #feefdd;
