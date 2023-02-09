@@ -1,0 +1,132 @@
+/* James Woodcock - Server repository 
+
+	Color palette
+	Davys gray - #595758
+	Paolo veronese green - #419d78
+	Red pigment - #e91111
+	Antique white - #feefdd
+	Marigold - #eca400
+*/
+
+/* resume font family: font-family: 'Great Vibes', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+/* header font family: font-family: 'Playfair Display', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body, header, nav, footer, section, ul, li, a, h2, h3, h4, p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body {
+	background-color: #feefdd;
+}
+
+nav {
+	padding: 1%;
+	background-color: #595758;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+nav ul {
+	list-style-type: none;
+	text-align: center;
+}
+nav li {
+	display: inline-block;
+	padding: 0 1%;
+}
+nav a {
+	color: #feefdd;
+	text-decoration: none;
+}
+header {
+	background-color: #595758;
+	border-bottom: thick solid #e91111;
+
+}
+header img {
+	max-width: 30%;
+}
+header h1 {
+	float: right;
+	padding-right: 20%;
+	padding-top: 8.5%;
+	font-size: 3em;
+	color: #feefdd;
+	font-family: 'Playfair Display', serif;
+}
+
+#resume {
+	text-align: center;
+	padding: 2%;
+}
+#resume a {
+	text-decoration: none;
+	color: #e91111;
+	font-size: 1.5em;
+	font-family: 'Great Vibes', cursive;
+}
+
+#gen-proj {
+	float: left;
+	padding: 2%;
+	padding-left: 13%;
+}
+#gen-proj ul {
+	list-style-type: none;
+}
+#gen-proj a {
+	text-decoration: none;
+	color: #eca400;
+}
+#gen-proj h3 {
+	color: #e91111;
+}
+
+#less-proj {
+	float: right;
+	padding: 2%;
+	padding-right: 13%;
+}
+#less-proj ul {
+	list-style-type: none;
+}
+#less-proj a {
+	text-decoration: none;
+	color: #419d78;
+}
+#less-proj h3 {
+	color: #e91111;
+}
+
+	/* The current about me is just a placeholder until I get the photo to use */
+#abt-me {
+	clear: left;
+	padding: 1.5%;
+	max-width: 35%;
+}
+#abt-me h2, h4 {
+	padding: 1.5% 0;
+	color: #e91111;
+}
+#abt-me p {
+	color: #595758;
+}
+
+footer {
+	background-color: #595758;
+	padding: 2%;
+	padding-bottom: 3.5%;
+	bottom: 0;
+	border-top: thick solid #e91111;
+
+}
+footer p {
+	color: #feefdd;
+	text-align: center;
+}
+
+
