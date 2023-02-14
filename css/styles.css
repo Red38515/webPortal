@@ -14,7 +14,7 @@
 /* header font family: font-family: 'Playfair Display', serif; */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
-body, header, nav, footer, section, ul, li, a, h2, h3, h4, p {
+body, header, nav, footer, section, ul, li, a, h2, h3, h4, p, img {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -106,14 +106,17 @@ header h1 {
 #abt-me {
 	clear: left;
 	padding: 1.5%;
-	max-width: 35%;
 }
 #abt-me h2, h4 {
 	padding: 1.5% 0;
-	color: #e91111;
 }
 #abt-me p {
-	color: #595758;
+}
+#abt-me h2, h4, p {
+	
+}
+#abt-me img {
+	max-width: 100%;
 }
 
 footer {
