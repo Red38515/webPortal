@@ -118,6 +118,9 @@ header h1 {
 #abt-me img {
 	max-width: 100%;
 }
+#abt-me td {
+	padding: 0 3%;
+}
 /* #abt-me td {
 	padding: 5%;
 } */
