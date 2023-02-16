@@ -110,9 +110,17 @@ header h1 {
 #abt-me h2, h4 {
 	padding: 1.5% 0;
 }
+#abt-me p {
+}
+#abt-me h2, h4, p {
+	
+}
 #abt-me img {
 	max-width: 100%;
 }
+/* #abt-me td {
+	padding: 5%;
+} */
 
 footer {
 	background-color: #595758;
