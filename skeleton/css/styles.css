@@ -57,6 +57,15 @@ main button {
     height: 15%;
     font-size: .5em;
 }
+main table td {
+    font-size: 1.7em;
+}
+main table td button {
+    margin: 0 auto;
+    display: block;
+    font-size: 0.5em;
+
+}
 
 
 footer {
@@ -69,4 +78,25 @@ footer {
 footer p {
     color: #0D3B66;
     font-size: 2em;
+}
+
+@media screen and (max-width: 800px) {
+    main table td {
+        font-size: 1em;
+    }
+
+}
+@media screen and (max-width: 1200px) {
+    main table td button {
+        font-size: 0.3em;
+    }
+    main table td img {
+        max-width: 100%;
+    }
+    main table td {
+        font-size: 1.3em;
+    }
+    main table {
+        max-width: 100%;
+    }
 }
