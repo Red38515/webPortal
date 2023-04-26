@@ -4,6 +4,10 @@ html, body, header, nav, ul, li, a, blockquote, main, footer, p {
     border: 0;
 }
 
+img {
+    max-width: 100%;
+}
+
 body {
     background-color: #F4D35E;
 }
@@ -64,7 +68,6 @@ main table td button {
     margin: 0 auto;
     display: block;
     font-size: 0.5em;
-
 }
 
 
